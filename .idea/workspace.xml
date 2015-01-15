@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/uploads.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +30,7 @@
       <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="43" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.59912854" vertical-offset="668" max-vertical-offset="1288">
+            <state line="46" column="49" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.59912854" vertical-offset="668" max-vertical-offset="1288">
               <folding />
             </state>
           </provider>
@@ -661,11 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/uploads.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Commands/PostProjectCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="19" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1081">
@@ -734,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="43" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.59912854" vertical-offset="668" max-vertical-offset="1288">
+        <state line="46" column="49" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.59912854" vertical-offset="668" max-vertical-offset="1288">
           <folding />
         </state>
       </provider>
