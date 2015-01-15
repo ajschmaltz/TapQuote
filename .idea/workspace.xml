@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/project.blade.php" afterPath="$PROJECT_DIR$/resources/views/project.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +37,10 @@
       <file leaf-file-name="project.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="48" selection-start="553" selection-end="553" vertical-scroll-proportion="1.0477178" vertical-offset="116" max-vertical-offset="1058">
-              <folding />
+            <state line="27" column="60" selection-start="565" selection-end="565" vertical-scroll-proportion="0.57261413" vertical-offset="345" max-vertical-offset="1058">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -343,8 +344,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor/bower_components" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/vendor/bower_components" />
       <recent name="$PROJECT_DIR$/vendor" />
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/assets" />
@@ -813,8 +814,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="553" selection-end="553" vertical-scroll-proportion="1.0477178" vertical-offset="116" max-vertical-offset="1058">
-          <folding />
+        <state line="27" column="60" selection-start="565" selection-end="565" vertical-scroll-proportion="0.57261413" vertical-offset="345" max-vertical-offset="1058">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

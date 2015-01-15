@@ -25,7 +25,7 @@
 </head>
 <body>
   <div id="rfq">
-    <img src="/icon.svg" width="100" height="100" />
+    <img src="/icon.svg" style="width: 100px; height: 100px;" />
     <div class="padded">
       <h1>Request for Quote</h1>
     </div>
