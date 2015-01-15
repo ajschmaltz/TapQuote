@@ -34,10 +34,10 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	 */
 	public function handle(ProjectWasPosted $event)
 	{
-    $this->snappy->setOption('quality', 10);
-    $this->snappy->setOption('width', 170);
+    $this->snappy->setOption('quality', 100);
+    $this->snappy->setOption('width', 500);
     $image = $this->snappy->getOutput('http://tapquote.com/project/' . $event->project->id);
-    $filename = 'project-' . $event->project->id . '.png';
+    $filename = 'project-' . $event->project->id . '.jpg';
     File::put($filename, $image);
 
     $from = $event->project->relay->number;
