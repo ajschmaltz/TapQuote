@@ -37,6 +37,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
     $this->snappy->setOption('quality', 100);
     $this->snappy->setOption('width', 500);
     $photos = [];
+
     foreach($event->project->photos as $photo)
     {
       $image = $this->snappy->getOutput('http://tapquote.com/photo/' . $photo->id);

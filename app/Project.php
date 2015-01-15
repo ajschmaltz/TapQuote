@@ -5,7 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model {
 
-  protected $fillable = ['photos', 'tag', 'desc', 'zip', 'cell'];
+  protected $fillable = ['tag', 'desc', 'zip', 'cell'];
 
   public function pros()
   {
