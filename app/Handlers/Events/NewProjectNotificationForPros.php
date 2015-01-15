@@ -44,7 +44,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
     $pros = $event->project->pros;
     $body = $event->project->desc;
     $photos = [];
-    $photos[0] = "http://tapquote.com/woodbg.jpg";
+    $photos[0] = "http://tapquote.com/1.png";
 
     foreach($pros as $to)
     {
