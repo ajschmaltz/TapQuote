@@ -3,8 +3,9 @@
 <head>
   <style type="text/css">
     body {
-      font-size: 60px;
+      font-size: 40px;
       background-color: #ccc;
+      font-family: sans-serif;
     }
     #rfq {
       width: 500px;
