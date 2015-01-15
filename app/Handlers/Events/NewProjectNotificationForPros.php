@@ -34,7 +34,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	 */
 	public function handle(ProjectWasPosted $event)
 	{
-    $this->snappy->setOption('quality', 100);
+    $this->snappy->setOption('quality', 10);
     $this->snappy->setOption('width', 170);
     $image = $this->snappy->getOutput('http://tapquote.com/project/' . $event->project->id);
     $filename = 'project-' . $event->project->id . '.png';
@@ -45,7 +45,6 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
     $body = $event->project->desc;
     $photos = [];
     $photos[0] = "http://tapquote.com/".$filename;
-    $photos[0] = "http://mainstreetmower.com/tqlogo.png";
 
     foreach($pros as $to)
     {
