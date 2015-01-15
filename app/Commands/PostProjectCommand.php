@@ -43,7 +43,7 @@ class PostProjectCommand extends Command implements SelfHandling {
 
     foreach($this->photos as $photo)
     {
-      $this->project->save(new Photo($photo));
+      $this->project->photos()->save(new Photo($photo));
     }
 
     $this->project->pros()->sync(
