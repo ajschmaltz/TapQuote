@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/project.blade.php" afterPath="$PROJECT_DIR$/resources/views/project.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,20 +26,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="40" selection-start="861" selection-end="861" vertical-scroll-proportion="0.18879668" vertical-offset="645" max-vertical-offset="1288">
+            <state line="37" column="40" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1288">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="project.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="805">
+            <state line="5" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.23858921" vertical-offset="0" max-vertical-offset="897">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="26" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1196">
+              <folding>
+                <element signature="e#7#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,12 +113,12 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/app/Services/Operator.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/project.blade.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/project.blade.php" />
       </list>
     </option>
   </component>
@@ -205,6 +216,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -714,15 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="40" selection-start="1264" selection-end="1264" vertical-scroll-proportion="0.6659751" vertical-offset="737" max-vertical-offset="1219">
-          <folding>
-            <element signature="e#7#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="14" selection-start="316" selection-end="329" vertical-scroll-proportion="0.4294606" vertical-offset="46" max-vertical-offset="1242">
@@ -730,16 +750,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="805">
+        <state line="37" column="40" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1288">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="40" selection-start="861" selection-end="861" vertical-scroll-proportion="0.18879668" vertical-offset="645" max-vertical-offset="1288">
+        <state line="44" column="26" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1196">
+          <folding>
+            <element signature="e#7#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.23858921" vertical-offset="0" max-vertical-offset="897">
           <folding />
         </state>
       </provider>
