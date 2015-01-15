@@ -15,6 +15,8 @@
       margin: 25px;
       background-color: #fff;
       box-shadow: 0 0 5px #000;
+      border-top: 5px solid #E87C3C;
+      border-bottom: 5px solid #E87C3C;
     }
     .padded {
       padding: 0 25px;
@@ -23,6 +25,7 @@
 </head>
 <body>
   <div id="rfq">
+    <img src="/icon.svg" width="100" height="100" />
     <div class="padded">
       <h1>Request for Quote</h1>
     </div>
