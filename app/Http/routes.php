@@ -43,5 +43,5 @@ Route::get('relay', function(){
 Route::get('project/{id}', function($id) {
   $project = Project::find($id);
   $view = view('project');
-  return $view->with('photos', $project);
+  return $view->with('project', $project);
 });

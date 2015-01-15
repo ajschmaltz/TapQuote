@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/project.blade.php" afterPath="$PROJECT_DIR$/resources/views/project.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="TapQuote.iws" />
@@ -35,19 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="project.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.23858921" vertical-offset="0" max-vertical-offset="897">
+            <state line="5" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="897">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="26" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1196">
+            <state line="45" column="29" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.7614108" vertical-offset="668" max-vertical-offset="1196">
               <folding>
                 <element signature="e#7#23#0" expanded="true" />
               </folding>
@@ -117,8 +116,8 @@
         <option value="$PROJECT_DIR$/app/Services/Operator.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/project.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -757,19 +756,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0" vertical-offset="668" max-vertical-offset="1196">
-          <folding>
-            <element signature="e#7#23#0" expanded="true" />
-          </folding>
+        <state line="5" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="415" max-vertical-offset="897">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="86" selection-end="86" vertical-scroll-proportion="0.23858921" vertical-offset="0" max-vertical-offset="897">
-          <folding />
+        <state line="45" column="29" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.7614108" vertical-offset="668" max-vertical-offset="1196">
+          <folding>
+            <element signature="e#7#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
