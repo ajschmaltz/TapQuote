@@ -22,11 +22,11 @@ class PostProjectRequest extends Request {
 	public function rules()
 	{
 		return [
-			'project.photos' => 'required',
       'project.tag' => 'required',
       'project.desc' => 'required',
       'project.zip' => 'required|numeric|digits:5',
-      'project.cell' => 'required|numeric|digits:10'
+      'project.cell' => 'required|numeric|digits:10',
+      'photos' => 'required|array'
 		];
 	}
 

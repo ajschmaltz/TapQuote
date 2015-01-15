@@ -1,6 +1,7 @@
 <?php namespace App\Commands;
 
 use App\Commands\Command;
+use App\Photo;
 use App\Pro;
 use App\Project;
 use App\Relay;
@@ -12,14 +13,17 @@ class PostProjectCommand extends Command implements SelfHandling {
 
   private $project;
 
+  private $photos;
+
 	/**
 	 * Create a new command instance.
 	 *
 	 * @return void
 	 */
-	public function __construct($project)
+	public function __construct($project, $photos)
 	{
     $this->project = new Project($project);
+    $this->photos = $photos;
 	}
 
 	/**
@@ -36,6 +40,11 @@ class PostProjectCommand extends Command implements SelfHandling {
     );
 
     $this->project->save();
+
+    foreach($this->photos as $photo)
+    {
+      $this->project->save(new Photo($photo));
+    }
 
     $this->project->pros()->sync(
       Pro::qualified($this->project)->lists('id')

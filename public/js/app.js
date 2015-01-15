@@ -60,10 +60,9 @@ $(document).ready(function () {
         var photos = [];
 
         $.each(uploads, function( index, element ) {
-            photos.push('https://s3-us-west-2.amazonaws.com/tapquote/'+$("#fine-uploader").fineUploader("getKey", element.id));
+            project.push({name: 'photos[' + index + '][src]', value: 'https://s3-us-west-2.amazonaws.com/tapquote/'+$("#fine-uploader").fineUploader("getKey", element.id)});
+            project.push({name: 'photos[' + index + '][caption]', value: 'testing the caption dufas'});
         });
-
-        project.push({name: 'project[photos]', value: photos});
 
         $.post( "/projects", project, function(){
         //    alert('Project Created.')

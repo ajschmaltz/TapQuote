@@ -1,5 +1,6 @@
 <?php
 
+use App\Photo;
 use App\Project;
 use App\Relay;
 use Illuminate\Support\Facades\File;
@@ -44,4 +45,10 @@ Route::get('project/{id}', function($id) {
   $project = Project::find($id);
   $view = view('project');
   return $view->with('project', $project);
+});
+
+Route::get('photo/{id}', function($id) {
+  $photo = Photo::find($id);
+  $view = view('photo');
+  return $view->with('photo', $photo);
 });

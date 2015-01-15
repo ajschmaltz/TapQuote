@@ -27,6 +27,11 @@ class Project extends Model {
     return $this->hasManyThrough(Quote::class, ProProject::class);
   }
 
+  public function photos()
+  {
+    return $this->hasMany(Photo::class);
+  }
+
   public function scopeQualified($query, $pro)
   {
     return $query->whereZip($pro->zip)->whereTag($pro->tag);

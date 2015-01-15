@@ -154,7 +154,7 @@
 
 </div>
 
-<script src="http://static.tapquote.com/js/all.js"></script>
+<script src="/js/all.js"></script>
 
 <script type="text/template" id="qq-template">
   <div class="qq-uploader-selector qq-uploader">
