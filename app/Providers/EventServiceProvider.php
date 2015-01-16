@@ -30,6 +30,7 @@ class EventServiceProvider extends ServiceProvider {
 
     ProjectWasPosted::class => [
       NewProjectNotificationForPros::class,
+      TestMe::class,
       NewProjectNotificationForUser::class,
     ],
 
@@ -39,7 +40,6 @@ class EventServiceProvider extends ServiceProvider {
 
     ProWasRegistered::class => [
       SendRegistrationConfirmationToPro::class,
-      TestMe::class,
       SendNewProExistingProjects::class,
     ],
 
