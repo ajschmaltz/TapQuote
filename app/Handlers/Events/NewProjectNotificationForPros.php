@@ -42,7 +42,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
     foreach($event->project->photos as $photo)
     {
       $image = $this->snappy->getOutput('http://tapquote.com/photos/' . $photo->id);
-      $filename = 'project-' . $event->project->id . '-nphoto-' . $photo->id .'.jpg';
+      $filename = 'project-' . $event->project->id . '-photo-' . $photo->id .'.jpg';
       File::put($filename, $image);
       $photos[] = "http://tapquote.com/".$filename;
     }
