@@ -35,7 +35,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function handle(ProjectWasPosted $event)
 	{
     $this->snappy->setOption('quality', 100);
-    $this->snappy->setOption('width', 500);
+    $this->snappy->setOption('width', 800);
     $photos = [];
 
     foreach($event->project->photos as $photo)
