@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
     </list>
     <ignored path="TapQuote.iws" />
@@ -25,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="3" selection-start="774" selection-end="774" vertical-scroll-proportion="0.5705394" vertical-offset="530" max-vertical-offset="1495">
+            <state line="48" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1518">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -36,10 +37,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EventServiceProvider.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="20" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="989">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMe.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestMe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.6182573" vertical-offset="300" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NewProjectNotificationForUser.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="32" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="943">
+            <state line="31" column="32" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="943">
               <folding />
             </state>
           </provider>
@@ -58,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2015_01_08_010739_create_pros_table.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/public/css/all.css" />
         <option value="$PROJECT_DIR$/app/Http/Requests/PostProRequest.php" />
@@ -88,7 +106,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Services/Operator.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/project.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/PostProjectRequest.php" />
@@ -107,7 +124,9 @@
         <option value="$PROJECT_DIR$/app/Relay.php" />
         <option value="$PROJECT_DIR$/app/Commands/PostProjectCommand.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Events/TestMe.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
       </list>
     </option>
@@ -657,14 +676,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+        <state line="12" column="13" selection-start="189" selection-end="193" vertical-scroll-proportion="0.4273859" vertical-offset="70" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="966">
+        <state line="41" column="20" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="989">
           <folding />
         </state>
       </provider>
@@ -678,10 +697,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="3" selection-start="774" selection-end="774" vertical-scroll-proportion="0.5705394" vertical-offset="530" max-vertical-offset="1495">
+        <state line="48" column="0" selection-start="1201" selection-end="1201" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1518">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestMe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.6182573" vertical-offset="300" max-vertical-offset="782">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,7 @@ use App\Handlers\Events\SendInvalidTextResponse;
 use App\Handlers\Events\SendNewProExistingProjects;
 use App\Handlers\Events\SendQuoteToUser;
 use App\Handlers\Events\SendRegistrationConfirmationToPro;
+use App\Handlers\Events\TestMe;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider {
@@ -38,6 +39,7 @@ class EventServiceProvider extends ServiceProvider {
 
     ProWasRegistered::class => [
       SendRegistrationConfirmationToPro::class,
+      TestMe::class,
       SendNewProExistingProjects::class,
     ],
 
