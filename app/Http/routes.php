@@ -33,8 +33,10 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
-Route::get('relay/{number}', function($number){
-  return Relay::create(['number' => $number]);
+Route::get('relay', function(){
+  Relay::create(['number' => '4074774522']);
+  Relay::create(['number' => '4072787390']);
+  Relay::create(['number' => '4072199832']);
 });
 
 Route::get('projects/{id}', 'ProjectController@viewProject');
