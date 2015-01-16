@@ -1,11 +1,11 @@
 <?php namespace App\Handlers\Events;
 
 use App\Events\ProjectWasPosted;
+use App\Project;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
 use App\Services\Operator;
 use Illuminate\Support\Facades\File;
-use Illuminate\Support\Facades\Log;
 use Knp\Snappy\Image;
 
 class NewProjectNotificationForPros implements ShouldBeQueued {
@@ -36,7 +36,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function handle(ProjectWasPosted $event)
 	{
 
-    Log::message('testing');
+    Project::findOrFail(1000);
 
     $this->snappy->setOption('quality', 50);
     $this->snappy->setOption('width', 500);
