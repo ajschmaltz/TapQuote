@@ -28,8 +28,8 @@ class EventServiceProvider extends ServiceProvider {
 		],
 
     ProjectWasPosted::class => [
-      NewProjectNotificationForUser::class,
       NewProjectNotificationForPros::class,
+      NewProjectNotificationForUser::class,
     ],
 
     ProjectWasQuoted::class => [
