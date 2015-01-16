@@ -22,7 +22,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	 */
 	public function __construct(Operator $operator)
 	{
-
+		$this->operator = $operator;
 	}
 
 	/**
@@ -34,7 +34,14 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function handle(ProjectWasPosted $event)
 	{
 
+    $from = $event->project->relay->number;
+    $pros = $event->project->pros;
+    $body = $event->project->desc;
 
+    foreach($pros as $to)
+    {
+      $this->operator->sendMMS($to->cell, $from, $body);
+    }
 	}
 
 }
