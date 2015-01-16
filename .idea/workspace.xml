@@ -28,7 +28,7 @@
       <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="3" selection-start="720" selection-end="720" vertical-scroll-proportion="0.5705394" vertical-offset="553" max-vertical-offset="1035">
+            <state line="35" column="3" selection-start="774" selection-end="774" vertical-scroll-proportion="0.5705394" vertical-offset="530" max-vertical-offset="1495">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -678,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="3" selection-start="720" selection-end="720" vertical-scroll-proportion="0.5705394" vertical-offset="553" max-vertical-offset="1035">
+        <state line="35" column="3" selection-start="774" selection-end="774" vertical-scroll-proportion="0.5705394" vertical-offset="530" max-vertical-offset="1495">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
