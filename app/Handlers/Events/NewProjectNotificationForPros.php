@@ -53,7 +53,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 
     foreach($pros as $to)
     {
-   //   $this->operator->sendMMS($to->cell, $from, $body, $photos);
+      $this->operator->sendMMS($to->cell, $from, $body, $photos);
     }
 	}
 
