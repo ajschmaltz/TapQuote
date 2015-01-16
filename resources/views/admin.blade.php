@@ -13,7 +13,6 @@
         <th>Date</th>
         <th>Tag</th>
         <th>Zip</th>
-        <th>Description</th>
         <th>Requests Sent</th>
         <th>Quotes Received</th>
       </tr>

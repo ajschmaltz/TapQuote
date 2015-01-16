@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +25,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="42" selection-start="817" selection-end="817" vertical-scroll-proportion="0.19825707" vertical-offset="737" max-vertical-offset="1495">
+            <state line="36" column="42" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1495">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="20" selection-start="374" selection-end="374" vertical-scroll-proportion="0.3006536" vertical-offset="184" max-vertical-offset="1472">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,7 +164,6 @@
         <option value="$PROJECT_DIR$/app/Handlers/Events/SendQuoteToUser.php" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin.blade.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Services/Operator.php" />
         <option value="$PROJECT_DIR$/.env" />
@@ -176,6 +184,7 @@
         <option value="$PROJECT_DIR$/app/Commands/SendProjectToProCommand.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin.blade.php" />
       </list>
     </option>
   </component>
@@ -672,11 +681,6 @@
         <state line="34" column="32" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1127" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="1495" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="57" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529" />
@@ -827,10 +831,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="42" selection-start="817" selection-end="817" vertical-scroll-proportion="0.19825707" vertical-offset="737" max-vertical-offset="1495">
+        <state line="36" column="42" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="1495">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="20" selection-start="374" selection-end="374" vertical-scroll-proportion="0.3006536" vertical-offset="184" max-vertical-offset="1472">
+          <folding />
         </state>
       </provider>
     </entry>
