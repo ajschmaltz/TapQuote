@@ -14,7 +14,6 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 
   private $operator;
 
-  private $snappy;
 
 	/**
 	 * Create the event handler.
@@ -24,7 +23,6 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function __construct(Operator $operator)
 	{
 		$this->operator = $operator;
-    $this->snappy = new Image(base_path() . '/vendor/h4cc/wkhtmltoimage-amd64/bin/wkhtmltoimage-amd64');
 	}
 
 	/**
@@ -36,7 +34,6 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function handle(ProjectWasPosted $event)
 	{
     Log::info('We got here');
-    
-	}
+  }
 
 }
