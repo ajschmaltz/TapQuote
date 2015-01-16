@@ -1,10 +1,6 @@
 <?php
 
-use App\Photo;
-use App\Project;
 use App\Relay;
-use Illuminate\Support\Facades\File;
-use Knp\Snappy\Image;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,14 +37,6 @@ Route::get('relay', function(){
   Relay::create(['number' => 4074774522]);
 });
 
-Route::get('project/{id}', function($id) {
-  $project = Project::find($id);
-  $view = view('project');
-  return $view->with('project', $project);
-});
+Route::get('projects/{id}', 'ProjectController@viewProject');
 
-Route::get('photo/{id}', function($id) {
-  $photo = Photo::find($id);
-  $view = view('photo');
-  return $view->with('photo', $photo);
-});
+Route::get('photos/{id}', 'PhotoController@viewPhoto');
