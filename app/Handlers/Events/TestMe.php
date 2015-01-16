@@ -6,7 +6,9 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
 use Illuminate\Support\Facades\Log;
 
-class TestMe {
+class TestMe implements ShouldBeQueued {
+
+  use InteractsWithQueue;
 
 	/**
 	 * Create the event handler.
