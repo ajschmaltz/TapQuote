@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="67" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.6993464" vertical-offset="645" max-vertical-offset="1495">
+            <state line="42" column="73" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="1495">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -85,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PhotoController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="3" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+            <state line="8" column="31" selection-start="189" selection-end="189" vertical-scroll-proportion="0.3006536" vertical-offset="0" max-vertical-offset="460">
               <folding />
             </state>
           </provider>
@@ -172,10 +172,10 @@
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/resources/views/photo.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Commands/SendProjectToProCommand.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PhotoController.php" />
       </list>
     </option>
   </component>
@@ -786,22 +786,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="e#39#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="19" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="736">
@@ -827,10 +811,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="67" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.6993464" vertical-offset="645" max-vertical-offset="1495">
+        <state line="42" column="73" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="783" max-vertical-offset="1495">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="39" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding>
+            <element signature="e#39#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="189" selection-end="189" vertical-scroll-proportion="0.3006536" vertical-offset="0" max-vertical-offset="460">
+          <folding />
         </state>
       </provider>
     </entry>
