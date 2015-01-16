@@ -42,7 +42,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
     foreach($event->project->photos as $photo)
     {
       $image = $this->snappy->getOutput('http://tapquote.com/photos/' . $photo->id);
-      $filename = pubic_path() . '/project-' . $event->project->id . '-photo-' . $photo->id .'.jpg';
+      $filename = pubic_path() . '/project-' . $event->project->id . '-nphoto-' . $photo->id .'.jpg';
       File::put($filename, $image);
       $photos[] = "http://tapquote.com/".$filename;
     }
@@ -53,7 +53,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 
     foreach($pros as $to)
     {
-      $this->operator->sendMMS($to->cell, $from, $body, $photos);
+   //   $this->operator->sendMMS($to->cell, $from, $body, $photos);
     }
 	}
 

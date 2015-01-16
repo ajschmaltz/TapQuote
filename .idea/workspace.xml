@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Handlers/Events/TestMe.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +28,7 @@
       <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="49" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.8112033" vertical-offset="667" max-vertical-offset="1518">
+            <state line="44" column="72" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.09543569" vertical-offset="966" max-vertical-offset="1518">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -701,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="49" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.8112033" vertical-offset="667" max-vertical-offset="1518">
+        <state line="44" column="72" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.09543569" vertical-offset="966" max-vertical-offset="1518">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
