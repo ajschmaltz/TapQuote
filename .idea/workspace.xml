@@ -28,7 +28,7 @@
       <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="524" selection-end="628" vertical-scroll-proportion="0.23651452" vertical-offset="461" max-vertical-offset="1242">
+            <state line="52" column="0" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.6659751" vertical-offset="875" max-vertical-offset="1518">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -49,6 +49,15 @@
         <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="43" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="966">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="31" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1127">
               <folding />
             </state>
           </provider>
@@ -202,6 +211,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1127">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="13" selection-start="189" selection-end="193" vertical-scroll-proportion="0.4273859" vertical-offset="70" max-vertical-offset="552">
@@ -691,13 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Services/Operator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="2" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="759">
@@ -705,9 +718,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="1127">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="966">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="524" selection-end="628" vertical-scroll-proportion="0.23651452" vertical-offset="461" max-vertical-offset="1242">
+        <state line="52" column="0" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.6659751" vertical-offset="875" max-vertical-offset="1518">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
