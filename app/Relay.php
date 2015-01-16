@@ -15,7 +15,7 @@ class Relay extends Model {
   {
     return $query->whereHas('projects', function($q) use ($project)
     {
-      $q->where('zip', 'booya'); // TODO: change to $project->zip or similar
+  //  $q->where('zip', $project->zip);
       $q->where('status', 1);
     }, '<', 1);
   }
