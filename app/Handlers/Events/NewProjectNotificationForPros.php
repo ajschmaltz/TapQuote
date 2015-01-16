@@ -23,6 +23,7 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function __construct(Operator $operator)
 	{
 		$this->operator = $operator;
+    $this->snappy = new Image(base_path() . '/vendor/h4cc/wkhtmltoimage-amd64/bin/wkhtmltoimage-amd64');
 	}
 
 	/**
