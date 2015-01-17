@@ -1,6 +1,7 @@
 <?php namespace App\Handlers\Events;
 
 use App\Events\ProjectWasPosted;
+use App\Relay;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
 use App\Services\Operator;
@@ -35,12 +36,17 @@ class NewProjectNotificationForPros implements ShouldBeQueued {
 	public function handle(ProjectWasPosted $event)
 	{
 
+    Relay::truncate();
+
     $this->snappy->setOption('quality', 50);
     $this->snappy->setOption('width', 500);
     $photos = [];
 
     foreach($event->project->photos as $photo)
     {
+      $this->screenshot->snap('http://tapquote.com/photos/' . $photo->id);
+      $this->screenshot->save('project-' . $event->project->id . '-photo-' . $photo->id . '.jpg');
+      $photos[] = $this->screenshot->getAbsolutePath();
       $image = $this->snappy->getOutput('http://tapquote.com/photos/' . $photo->id);
       $filename = 'project-' . $event->project->id . '-photo-' . $photo->id .'.jpg';
       File::put($filename, $image);
