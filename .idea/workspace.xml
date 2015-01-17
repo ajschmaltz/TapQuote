@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,22 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestTheEvent.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
+      <file leaf-file-name="NewProjectNotificationForPro.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1518">
+            <state line="9" column="34" selection-start="280" selection-end="280" vertical-scroll-proportion="0.3340249" vertical-offset="46" max-vertical-offset="1518">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventServiceProvider.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="20" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="966">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -52,27 +41,19 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="42" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1265">
-              <folding />
+              <folding>
+                <marker date="1421525915000" expanded="true" signature="0:960" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+                <marker date="1421525915000" expanded="true" signature="162:388" placeholder="{&quot;laravel/framework&quot;: &quot;~5.0&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="26" selection-start="4953" selection-end="4953" vertical-scroll-proportion="0.6680498" vertical-offset="3013" max-vertical-offset="4669">
+            <state line="141" column="40" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.0" vertical-offset="3013" max-vertical-offset="4669">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewProjectNotificationForUser.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="543" max-vertical-offset="1012">
-              <folding>
-                <element signature="e#38#70#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Requests/PostProRequest.php" />
         <option value="$PROJECT_DIR$/app/Rfb.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_01_09_021627_create_pro_project_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SMSRouter.php" />
@@ -135,12 +115,13 @@
         <option value="$PROJECT_DIR$/app/Handlers/Events/TestMe.php" />
         <option value="$PROJECT_DIR$/app/Services/Operator.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" />
-        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/TheTestEvent.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPro.php" />
       </list>
     </option>
   </component>
@@ -206,7 +187,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TapQuote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Handlers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -626,42 +647,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1518">
+        <state line="12" column="42" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1265">
           <folding>
-            <element signature="e#38#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
-          <folding>
-            <element signature="e#38#70#0" expanded="true" />
+            <marker date="1421525915000" expanded="true" signature="0:960" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1421525915000" expanded="true" signature="162:388" placeholder="{&quot;laravel/framework&quot;: &quot;~5.0&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="966">
+        <state line="32" column="34" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.4294606" vertical-offset="184" max-vertical-offset="966">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1265">
-          <folding />
+        <state line="12" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="-0.56929636" vertical-offset="543" max-vertical-offset="1012">
+          <folding>
+            <element signature="e#38#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="26" selection-start="4953" selection-end="4953" vertical-scroll-proportion="0.6680498" vertical-offset="3013" max-vertical-offset="4669">
+        <state line="141" column="40" selection-start="4811" selection-end="4811" vertical-scroll-proportion="0.0" vertical-offset="3013" max-vertical-offset="4669">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="34" selection-start="280" selection-end="280" vertical-scroll-proportion="0.3340249" vertical-offset="46" max-vertical-offset="1518">
+          <folding>
+            <element signature="e#38#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -7,7 +7,7 @@ use App\Services\Operator;
 use Illuminate\Support\Facades\File;
 use Knp\Snappy\Image;
 
-class TestTheEvent implements ShouldBeQueued {
+class NewProjectNotificationForPro implements ShouldBeQueued {
 
   use InteractsWithQueue;
 

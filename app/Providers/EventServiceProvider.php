@@ -30,7 +30,7 @@ class EventServiceProvider extends ServiceProvider {
 		],
 
     ProjectWasPosted::class => [
-      TestTheEvent::class,
+      NewProjectNotificationForPro::class,
       NewProjectNotificationForUser::class,
     ],
 
