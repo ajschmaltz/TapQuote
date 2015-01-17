@@ -7,7 +7,7 @@ use App\Services\Operator;
 use Illuminate\Support\Facades\File;
 use Knp\Snappy\Image;
 
-class TestTheEvent implements ShouldBeQueued {
+class TheTestEvent implements ShouldBeQueued {
 
   use InteractsWithQueue;
 
@@ -41,9 +41,6 @@ class TestTheEvent implements ShouldBeQueued {
 
     foreach($event->project->photos as $photo)
     {
-      $this->screenshot->snap('http://tapquote.com/photos/' . $photo->id);
-      $this->screenshot->save('project-' . $event->project->id . '-photo-' . $photo->id . '.jpg');
-      $photos[] = $this->screenshot->getAbsolutePath();
       $image = $this->snappy->getOutput('http://tapquote.com/photos/' . $photo->id);
       $filename = 'project-' . $event->project->id . '-photo-' . $photo->id .'.jpg';
       File::put($filename, $image);
