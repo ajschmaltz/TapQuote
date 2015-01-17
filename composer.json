@@ -9,7 +9,8 @@
         "twilio/sdk": "dev-master",
         "aws/aws-sdk-php": "2.*",
 		"knplabs/knp-snappy": "0.3.*@dev",
-        "h4cc/wkhtmltoimage-amd64": "0.12.x"
+        "h4cc/wkhtmltoimage-amd64": "0.12.x",
+		"barryvdh/laravel-debugbar": "~2.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
