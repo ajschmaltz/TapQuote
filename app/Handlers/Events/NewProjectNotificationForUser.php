@@ -5,7 +5,7 @@ use App\Services\Operator;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
 
-class TestTheEvent  implements ShouldBeQueued {
+class NewProjectNotificationForUser  implements ShouldBeQueued {
 
   use InteractsWithQueue;
 

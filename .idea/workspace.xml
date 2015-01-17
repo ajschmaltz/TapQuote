@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Handlers/Events/SendRegistrationConfirmationToPro.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Handlers/Events/SendRegistrationConfirmationToPro.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php" />
     </list>
     <ignored path="TapQuote.iws" />
@@ -26,19 +27,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
+      <file leaf-file-name="TestTheEvent.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1587">
+            <state line="9" column="18" selection-start="264" selection-end="264" vertical-scroll-proportion="0.4509804" vertical-offset="0" max-vertical-offset="1587">
+              <folding>
+                <element signature="e#38#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendRegistrationConfirmationToPro.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/SendRegistrationConfirmationToPro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="6" selection-start="193" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="989">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewProjectNotificationForUser.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewProjectNotificationForUser.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="319" selection-end="319" vertical-scroll-proportion="0.7219731" vertical-offset="0" max-vertical-offset="1012">
+            <state line="7" column="35" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -142,10 +154,10 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/TestMe.php" />
         <option value="$PROJECT_DIR$/app/Services/Operator.php" />
-        <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" />
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
       </list>
     </option>
   </component>
@@ -380,14 +392,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="99" width="1347" height="561" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27023014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27023014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -737,23 +749,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="709" selection-end="709" vertical-scroll-proportion="1.5533769" vertical-offset="0" max-vertical-offset="989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="319" selection-end="319" vertical-scroll-proportion="0.7219731" vertical-offset="0" max-vertical-offset="1012">
+        <state line="7" column="35" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <folding>
+            <element signature="e#38#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/SendRegistrationConfirmationToPro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="193" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="989">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="264" selection-end="264" vertical-scroll-proportion="0.4509804" vertical-offset="0" max-vertical-offset="1587">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
