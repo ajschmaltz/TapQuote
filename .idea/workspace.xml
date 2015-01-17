@@ -28,7 +28,18 @@
       <file leaf-file-name="NewProjectNotificationForPros.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="796" selection-end="796" vertical-scroll-proportion="0.5228216" vertical-offset="622" max-vertical-offset="1656">
+            <state line="30" column="5" selection-start="521" selection-end="521" vertical-scroll-proportion="0.49891067" vertical-offset="461" max-vertical-offset="920">
+              <folding>
+                <element signature="e#38#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewProjectNotificationForUser.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="37" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1012">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -706,15 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="224" selection-end="224" vertical-scroll-proportion="0.29424307" vertical-offset="23" max-vertical-offset="1012">
-          <folding>
-            <element signature="e#38#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Services/Operator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="2" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="759">
@@ -743,9 +745,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="1012">
+          <folding>
+            <element signature="e#38#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="796" selection-end="796" vertical-scroll-proportion="0.5228216" vertical-offset="622" max-vertical-offset="1656">
+        <state line="30" column="5" selection-start="521" selection-end="521" vertical-scroll-proportion="0.49891067" vertical-offset="461" max-vertical-offset="920">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>
