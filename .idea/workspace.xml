@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d5f182b-4f8a-45f9-8e18-6f0c510aee43" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/TheTestEvent.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Handlers/Events/TheTestEvent.php" afterPath="$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php" />
     </list>
     <ignored path="TapQuote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TheTestEvent.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TheTestEvent.php">
+      <file leaf-file-name="TestTheEvent.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.57261413" vertical-offset="0" max-vertical-offset="1518">
+            <state line="9" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.4294606" vertical-offset="0" max-vertical-offset="1518">
               <folding>
                 <element signature="e#38#70#0" expanded="true" />
               </folding>
@@ -69,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/css/all.css" />
         <option value="$PROJECT_DIR$/app/Http/Requests/PostProRequest.php" />
         <option value="$PROJECT_DIR$/app/Rfb.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_01_09_021627_create_pro_project_table.php" />
@@ -120,6 +119,7 @@
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForUser.php" />
         <option value="$PROJECT_DIR$/app/Handlers/Events/NewProjectNotificationForPros.php" />
+        <option value="$PROJECT_DIR$/app/Handlers/Events/TheTestEvent.php" />
       </list>
     </option>
   </component>
@@ -398,14 +398,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="99" width="1347" height="561" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27023014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27023014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -769,9 +769,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TheTestEvent.php">
+    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/TestTheEvent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.57261413" vertical-offset="0" max-vertical-offset="1518">
+        <state line="9" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.4294606" vertical-offset="0" max-vertical-offset="1518">
           <folding>
             <element signature="e#38#70#0" expanded="true" />
           </folding>

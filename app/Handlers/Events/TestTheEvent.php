@@ -7,7 +7,7 @@ use App\Services\Operator;
 use Illuminate\Support\Facades\File;
 use Knp\Snappy\Image;
 
-class TheTestEvent implements ShouldBeQueued {
+class TestTheEvent implements ShouldBeQueued {
 
   use InteractsWithQueue;
 
