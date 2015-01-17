@@ -16,7 +16,7 @@ class Operator {
 
   public function sendMMS($to, $from, $body, $photos = null)
   {
-//    $this->client->account->messages->sendMessage($from, $to, $body, $photos);
+    $this->client->account->messages->sendMessage($from, $to, $body, $photos);
   }
 
   public function reserveNumber($project)
