@@ -14,6 +14,7 @@ use App\Handlers\Events\SendNewProExistingProjects;
 use App\Handlers\Events\SendQuoteToUser;
 use App\Handlers\Events\SendRegistrationConfirmationToPro;
 use App\Handlers\Events\TestMe;
+use App\Handlers\Events\TestTheEvent;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 
 class EventServiceProvider extends ServiceProvider {
@@ -29,7 +30,7 @@ class EventServiceProvider extends ServiceProvider {
 		],
 
     ProjectWasPosted::class => [
-      NewProjectNotificationForPros::class,
+      TestTheEvent::class,
       NewProjectNotificationForUser::class,
     ],
 
