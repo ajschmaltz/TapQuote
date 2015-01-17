@@ -1,4 +1,6 @@
-<?php namespace App\Handlers\Events;
+<?php
+
+namespace App\Handlers\Events;
 
 use App\Events\ProWasRegistered;
 use App\Services\Operator;
@@ -29,16 +31,14 @@ class SendNewProExistingProjects implements ShouldBeQueued {
 	 */
 	public function handle(ProWasRegistered $event)
 	{
-    $to = $event->pro->cell;
-
     foreach($event->pro->projects as $project)
     {
-      $from = $project->relay->number;
-      $body = $project->desc;
-      $photos = explode(',', $project->photos);
-
-      $this->operator->sendMMS($to, $from, $body, $photos);
-
+      $this->operator->sendMMS(
+        $event->pro->cell,
+        $project->relay->number,
+        $project->desc,
+        $project->photos
+      );
     }
 	}
 

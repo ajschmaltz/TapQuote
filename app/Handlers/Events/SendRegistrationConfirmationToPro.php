@@ -29,12 +29,11 @@ class SendRegistrationConfirmationToPro implements ShouldBeQueued {
 	 */
 	public function handle(ProWasRegistered $event)
 	{
-    $to = $event->pro->cell;
-    $id = $event->pro->id;
-    $name = $event->pro->name;
-    $from = '407-477-4522';
-    $body = "Welcome to TapQuote $name!  Manage your profile at http://tapquote.com/pro/$id";
-		$this->operator->sendMMS($to, $from, $body);
+		$this->operator->sendMMS(
+      $event->pro->cell,
+      '407-477-4522',
+      "Welcome to TapQuote $event->pro->name!  Manage your profile at http://tapquote.com/pro/$event->pro->id"
+    );
 	}
 
 }

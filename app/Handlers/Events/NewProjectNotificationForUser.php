@@ -1,4 +1,6 @@
-<?php namespace App\Handlers\Events;
+<?php
+
+namespace App\Handlers\Events;
 
 use App\Events\ProjectWasPosted;
 use App\Services\Operator;
@@ -29,10 +31,11 @@ class NewProjectNotificationForUser  implements ShouldBeQueued {
 	 */
 	public function handle(ProjectWasPosted $event)
 	{
-    $to = $event->project->cell;
-    $from = $event->project->relay->number;
-    $body = "You're project was received and we're alerting the qualified pros.  All quotes will come from this number.";
-    $this->operator->sendMMS($to, $from, $body);
+    $this->operator->sendMMS(
+      $event->project->cell,
+      $event->project->relay->number,
+      "You're project was received and we're alerting the qualified pros.  All quotes will come from this number."
+    );
 	}
 
 }

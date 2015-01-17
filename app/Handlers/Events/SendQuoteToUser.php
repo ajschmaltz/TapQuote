@@ -1,4 +1,6 @@
-<?php namespace App\Handlers\Events;
+<?php
+
+namespace App\Handlers\Events;
 
 use App\Events\ProjectWasQuoted;
 use App\Services\Operator;
@@ -29,11 +31,11 @@ class SendQuoteToUser implements ShouldBeQueued {
 	 */
 	public function handle(ProjectWasQuoted $event)
 	{
-    $to = $event->quote->rfq->project->cell;
-    $from = $event->quote->rfq->project->relay->number;
-    $body = $event->quote->body . ' - quoted by ' . $event->quote->rfq->pro->name;
-
-		$this->operator->sendMMS($to, $from, $body);
+		$this->operator->sendMMS(
+      $event->quote->rfq->project->cell,
+      $event->quote->rfq->project->relay->number,
+      $event->quote->body . ' - quoted by ' . $event->quote->rfq->pro->name
+    );
 	}
 
 }
