@@ -1,15 +1,15 @@
-<?php
+<?php namespace App\Handlers\Events;
 
-namespace App\Handlers\Events;
-
+use App\Events\ProjectReady;
 use App\Events\ProjectWasPosted;
+
+use App\Relay;
+use App\Services\Operator;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
-use App\Services\Operator;
+use Illuminate\Support\Facades\Event;
 
-class NewProjectNotificationForPro implements ShouldBeQueued {
-
-  use InteractsWithQueue;
+class ReserveRelay {
 
   private $operator;
 
@@ -31,15 +31,8 @@ class NewProjectNotificationForPro implements ShouldBeQueued {
 	 */
 	public function handle(ProjectWasPosted $event)
 	{
-    foreach($event->project->pros as $pro)
-    {
-      $this->operator->sendMMS(
-        $pro->cell,
-        $event->project->relay->number,
-        $event->project->desc,
-        $event->project->photos
-      );
-    }
+    $this->operator->reserveRelay($event->project);
+    Event::fire(new ProjectReady($event->project));
 	}
 
 }

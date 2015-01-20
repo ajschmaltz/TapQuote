@@ -37,8 +37,8 @@ Route::get('relay', function(){
   Relay::create(['number' => '4074774522']);
   Relay::create(['number' => '4072787390']);
   Relay::create(['number' => '4072199832']);
+  Relay::create(['number' => '3216847562']);
+  Relay::create(['number' => '3219780551']);
 });
 
 Route::get('projects/{id}', 'ProjectController@viewProject');
-
-Route::get('photos/{id}', 'PhotoController@viewPhoto');

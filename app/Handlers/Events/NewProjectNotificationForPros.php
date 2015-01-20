@@ -3,11 +3,11 @@
 namespace App\Handlers\Events;
 
 use App\Events\ProjectReady;
-use App\Services\Operator;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
+use App\Services\Operator;
 
-class NewProjectNotificationForUser  implements ShouldBeQueued {
+class NewProjectNotificationForPros implements ShouldBeQueued {
 
   use InteractsWithQueue;
 
@@ -18,10 +18,10 @@ class NewProjectNotificationForUser  implements ShouldBeQueued {
 	 *
 	 * @return void
 	 */
-  public function __construct(Operator $operator)
-  {
-    $this->operator = $operator;
-  }
+	public function __construct(Operator $operator)
+	{
+		$this->operator = $operator;
+	}
 
 	/**
 	 * Handle the event.
@@ -32,9 +32,10 @@ class NewProjectNotificationForUser  implements ShouldBeQueued {
 	public function handle(ProjectReady $event)
 	{
     $this->operator->sendMMS(
-      $event->project->cell,
+      $event->project->pros->lists('cell'),
       $event->project->relay->number,
-      "You're project was received and we're alerting the qualified pros.  All quotes will come from this number."
+      $event->project->desc,
+      $event->project->photos->lists('src')
     );
 	}
 

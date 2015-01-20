@@ -20,7 +20,7 @@
     <tbody>
       <tr ng-repeat="project in projects">
         <td>[[ project.id ]]</td>
-        <td>[[ project.created_at ]]</td>
+        <td>[[ project.created_at | date:'medium' ]]</td>
         <td>[[ project.tag ]]</td>
         <td>[[ project.zip ]]</td>
         <td>[[ project.rfqs.length ]]</td>

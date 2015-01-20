@@ -20,7 +20,7 @@ class PostProjectCommand extends Command implements SelfHandling {
 	 *
 	 * @return void
 	 */
-	public function __construct($project, $photos)
+	public function __construct($project, array $photos)
 	{
     $this->project = new Project($project);
     $this->photos = $photos;
@@ -35,10 +35,6 @@ class PostProjectCommand extends Command implements SelfHandling {
 	public function handle()
 	{
 
-    $this->project->relay()->associate(
-      Relay::available($this->project)->first()
-    );
-
     $this->project->save();
 
     foreach($this->photos as $photo)
@@ -51,6 +47,7 @@ class PostProjectCommand extends Command implements SelfHandling {
     );
 
     Event::fire(new ProjectWasPosted($this->project));
+
 	}
 
 }

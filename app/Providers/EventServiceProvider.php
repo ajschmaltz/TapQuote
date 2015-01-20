@@ -1,11 +1,13 @@
 <?php namespace App\Providers;
 
+use App\Events\ProjectReady;
 use App\Events\ProjectWasPosted;
 use App\Events\ProjectWasQuoted;
 use App\Events\ProWasRegistered;
 use App\Events\ReceivedInvalidText;
 use App\Handlers\Events\NewProjectNotificationForUser;
 use App\Handlers\Events\NewProjectNotificationForPros;
+use App\Handlers\Events\ReserveRelay;
 use App\Handlers\Events\SendInvalidTextResponse;
 use App\Handlers\Events\SendNewProExistingProjects;
 use App\Handlers\Events\SendQuoteToUser;
@@ -22,7 +24,11 @@ class EventServiceProvider extends ServiceProvider {
 	protected $listen = [
 
     ProjectWasPosted::class => [
-      NewProjectNotificationForPro::class,
+      ReserveRelay::class,
+    ],
+
+    ProjectReady::class => [
+      NewProjectNotificationForPros::class,
       NewProjectNotificationForUser::class,
     ],
 
