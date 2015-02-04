@@ -78,11 +78,8 @@ return [
 	|
 	*/
 
-<<<<<<< HEAD
-	'key' => env('APP_KEY', 'YourSecretKey!!!'),
-=======
+
 	'key' => env('APP_KEY', 'SomeRandomString'),
->>>>>>> laravel/develop
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -143,10 +140,8 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-<<<<<<< HEAD
+
     'Barryvdh\Debugbar\ServiceProvider',
-=======
->>>>>>> laravel/develop
 		'App\Providers\AppServiceProvider',
 		'App\Providers\BusServiceProvider',
 		'App\Providers\ConfigServiceProvider',
@@ -172,19 +167,13 @@ return [
 		'Artisan'   => 'Illuminate\Support\Facades\Artisan',
 		'Auth'      => 'Illuminate\Support\Facades\Auth',
 		'Blade'     => 'Illuminate\Support\Facades\Blade',
-<<<<<<< HEAD
-=======
 		'Bus'       => 'Illuminate\Support\Facades\Bus',
->>>>>>> laravel/develop
 		'Cache'     => 'Illuminate\Support\Facades\Cache',
 		'Config'    => 'Illuminate\Support\Facades\Config',
 		'Cookie'    => 'Illuminate\Support\Facades\Cookie',
 		'Crypt'     => 'Illuminate\Support\Facades\Crypt',
 		'DB'        => 'Illuminate\Support\Facades\DB',
-<<<<<<< HEAD
-=======
 		'Eloquent'  => 'Illuminate\Database\Eloquent\Model',
->>>>>>> laravel/develop
 		'Event'     => 'Illuminate\Support\Facades\Event',
 		'File'      => 'Illuminate\Support\Facades\File',
 		'Hash'      => 'Illuminate\Support\Facades\Hash',
@@ -193,10 +182,7 @@ return [
 		'Lang'      => 'Illuminate\Support\Facades\Lang',
 		'Log'       => 'Illuminate\Support\Facades\Log',
 		'Mail'      => 'Illuminate\Support\Facades\Mail',
-<<<<<<< HEAD
 		'Paginator' => 'Illuminate\Support\Facades\Paginator',
-=======
->>>>>>> laravel/develop
 		'Password'  => 'Illuminate\Support\Facades\Password',
 		'Queue'     => 'Illuminate\Support\Facades\Queue',
 		'Redirect'  => 'Illuminate\Support\Facades\Redirect',
@@ -206,10 +192,7 @@ return [
 		'Route'     => 'Illuminate\Support\Facades\Route',
 		'Schema'    => 'Illuminate\Support\Facades\Schema',
 		'Session'   => 'Illuminate\Support\Facades\Session',
-<<<<<<< HEAD
-=======
 		'Storage'   => 'Illuminate\Support\Facades\Storage',
->>>>>>> laravel/develop
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
