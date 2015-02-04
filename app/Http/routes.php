@@ -1,6 +1,7 @@
 <?php
 
 use App\Relay;
+use SimpleHtmlDom\simple_html_dom;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +43,20 @@ Route::get('relay', function(){
 });
 
 Route::get('projects/{id}', 'ProjectController@viewProject');
+
+Route::get('parse/{ticker}', function($ticker){
+  $xmlfile = "http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=$ticker&type=10-k%25&dateb=&owner=exclude&start=0&count=40&output=atom";
+
+  $file = file_get_contents($xmlfile);
+
+  $obj = simplexml_load_string($file);
+
+  $file = file_get_contents($obj->entry->link['href']);
+
+  $html = new simple_html_dom();
+
+  $html->load($html);
+
+  dd($html->find('a'));
+
+});
