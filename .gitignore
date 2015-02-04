@@ -8,3 +8,4 @@ gulpfile.js
 phpspec.yml
 phpunit.xml
 .DS_Store
+.idea
