@@ -1,11 +1,8 @@
 <?php
 
-<<<<<<< HEAD
 use App\Relay;
 use SimpleHtmlDom\simple_html_dom;
 
-=======
->>>>>>> laravel/develop
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -19,8 +16,8 @@ use SimpleHtmlDom\simple_html_dom;
 
 Route::get('/', 'WelcomeController@index');
 
-<<<<<<< HEAD
 Route::get('admin', 'AdminController@overview');
+
 Route::get('admin/api', 'AdminController@overviewAPI');
 
 Route::get('home', 'HomeController@index');
@@ -33,15 +30,12 @@ Route::post('pros', 'ProController@postPro');
 
 Route::get('sms/router', 'SMSRouter@route');
 
-=======
 Route::get('home', 'HomeController@index');
 
->>>>>>> laravel/develop
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-<<<<<<< HEAD
 
 Route::get('relay', function(){
   Relay::create(['number' => '4074774522']);
@@ -69,5 +63,3 @@ Route::get('parse/{ticker}', function($ticker){
   dd($html->find('a'));
 
 });
-=======
->>>>>>> laravel/develop
